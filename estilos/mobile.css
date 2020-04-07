@@ -1,0 +1,18 @@
+@media(max-width:600px){/*Para hacer la responsiva del celular*/
+
+.header{
+    height: 100px;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: inherit;
+}
+.logo{
+    width:  0px;
+   margin: 0;
+   padding: 0;  
+}
+.main_section{
+    font-size: 20px;
+}
+}

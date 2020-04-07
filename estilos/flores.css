@@ -1,0 +1,76 @@
+/*------------------------------------Body*/
+/*Primer paso quitarle el espaciado a html y body*/
+html,body{
+    padding: 0;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    /* font-size: 25px; */
+    background-color:rgb(233, 183, 226);
+}
+/*------------------------------------Header*/
+
+.header{
+
+    background-color: aliceblue;;/*Color de fondo*/
+    color:  rgb(235, 54, 145);/*Color de texto*/
+    font-family: Georgia, 'Times New Roman', Times, serif;/*Fuente del texto*/
+    font-size: 23px;/*Tamaño del texto*/
+    display: flex;/*Aliniacion Horizontal*/
+    justify-content: space-between;/*Espacio entre logo y menu*/
+    height: 70px;/*Altura del menu*/
+    align-items: center;/*Aliniacion al centro*/
+    margin: 0px;/*Eliminar el margen*/
+    padding: 0px;
+}
+.logo{
+    margin: 30px;
+    align-items: center;
+}
+.menu{
+    height: inherit;
+    margin: 0px;
+}
+
+ol{
+
+    list-style: none;
+    height: inherit;
+    display: flex;
+}
+.header a{
+
+   color:  rgb(195, 48, 122);/*Color de texto*/;
+   text-decoration: none;
+
+}
+.header a{
+    display: flex;
+    align-items: center;
+    padding: 0px 20px;/*no se pone coma ' , ' entre los pixeles*/
+}
+/*El menu cambie de color cuando el cursor este encima de el*/
+nav a:hover{
+    color: rgb(248, 42, 179);
+  }
+
+/*------------------------------------Main Section*/
+.modulo_pago{
+    background-color: aliceblue;
+    box-shadow:0px 2px 1px  #e6e5e9;
+    color: black;
+    padding: 10px;
+    text-align: left;
+}
+.modulo_pago_image{
+    text-align: center;
+    
+}
+.modulo_pago input{
+    padding: 10px;
+    font-size: 15px;
+    
+    width: 100%;
+   border-radius: 2px;
+   border: 1px solid rgb(195, 162, 190);
+   box-sizing: border-box;/*Para tomar de referencia el 100% y todos lo tomen igual*/
+}
