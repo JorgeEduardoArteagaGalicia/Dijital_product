@@ -37,7 +37,7 @@
     color: azure;
 }
 
-.row{
+.row,.row2{
     text-align: center;
   display: flex;
   font-size: 20px;
@@ -60,6 +60,7 @@
 }
 .col-4{
     width: 33.33333333%;
+    margin: auto;
 
 }
 .col-5{
@@ -73,6 +74,7 @@
 }
 .col-8{
     width: 66.666666666%;
+    margin: auto;
 }
 .col-9{
     width: 74.999999999%;
@@ -94,19 +96,19 @@
 }
 
 @media (max-width:900px) {
-  .row{
+  .row,.row2{
     display: inherit;
     text-align: center;
    
   }
   .col-1,.col-2,.col-3,.col-4,.col-5,.col-6,.col-7,.col-8,.col-9,.col-10,.col-11,.col-12 {
       padding: 10px;
-      width: 100%
+      width:90%
       
       
   }
   .container h1{
-    font-size: 40px;
+    font-size: 35px;
    
 }
 
