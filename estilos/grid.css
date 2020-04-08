@@ -19,11 +19,16 @@
     text-align: center;
     margin: auto;
 }
-
-.comprar,.comprar2:hover{
+.comprar:hover{
     background-color: rgba(185, 45, 152, 0.623);
 }
-.comprar,.comprar2:hover{
+.comprar:hover{
+    color: aliceblue;
+}
+.comprar2:hover{
+    background-color: rgba(185, 45, 152, 0.623);
+}
+.comprar2:hover{
     color: aliceblue;
 }
 .comprar2{
@@ -120,5 +125,6 @@
     width: 100px;
     height: 35px;
 }
+
 
 }
